@@ -1,0 +1,19 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "Cloning Youtube with Vanilla and NodeJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyegyeong310/youtube-clone.git"
+  },
+  "author": "Hyegyeong Han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyegyeong310/youtube-clone/issues"
+  },
+  "homepage": "https://github.com/Hyegyeong310/youtube-clone#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
