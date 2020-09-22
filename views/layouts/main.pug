@@ -3,11 +3,10 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title | Youtude Clone
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.2.0/css/all.css")
+        title #{pageTitle} | #{siteName}
     body
-        header
-            h1 YouTube
+        include ../partials/header
         main
             block content
-        footer
-            span &copy; Youtube Clone
+        include ../partials/footer
