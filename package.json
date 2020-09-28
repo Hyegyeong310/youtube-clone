@@ -1,6 +1,12 @@
 {
   "name": "youtube-clone",
   "version": "1.0.0",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
   "description": "Cloning Youtube with Vanilla and NodeJS",
   "main": "index.js",
   "repository": {
@@ -31,6 +37,11 @@
     "start": "nodemon --exec babel-node init.js --delay 2"
   },
   "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "nodemon": "^2.0.4"
   }
 }
